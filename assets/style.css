@@ -1,0 +1,127 @@
+:root{   
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+body{
+    background-color: #131415;
+}
+.section-2{
+    background-color: #131415;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 131.02%;
+}
+.recomended-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.cards{
+background: #252525;
+width: 347px;
+height: 103px;
+left: 197px;
+top: 583px;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+box-shadow: 0px 0px 50px rgba(1,2,7,0.5);
+}
+
+.card-img{
+    display: flex;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    left: 13.96%;
+    right: 81.94%;
+    top: 31.97%;
+    bottom: 64.74%;
+    margin-left: 20px;
+}
+.card-text{
+    text-align: left;
+    flex-direction: column;
+    margin-top: 20px;   
+}
+.card-text p{
+    margin: -1px;
+    align-self: center;
+}
+
+.card-name{
+    color: #ffffff;
+    height: 20px;
+    left: 19.21%;
+    right: 74.11%;
+    top: calc(50% - 20px/2 - 332.5px);
+    font-family: 'montserrat';
+    
+}
+.card-details{
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    }
+
+.card-prize{
+    display:flex;
+    font-family: 'montserrat';
+    font-style:normal;
+    font-weight: 700;
+    line-height: 131.02%;
+    background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.card-add{
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    height: 29px;
+    left: 442px;
+    top: 620px;
+    margin: 35px 10px 0px 0px;
+    background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+    border-radius: 17.5px;
+
+}
+.card-add p{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 54px;
+    height: 15px;
+    left: 458px;
+    top: 627px;
+    font-family:'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+.card-add a{
+    display: flex;
+    text-decoration: none;
+}
